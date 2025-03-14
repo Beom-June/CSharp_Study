@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F462BA9-E080-48C2-9221-07FD9DFCC3E8}</ProjectGuid>
+    <ProjectGuid>{6BFD2CEA-088E-4DEE-8607-90675AA517E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IndexerTest</RootNamespace>
-    <AssemblyName>IndexerTest</AssemblyName>
+    <RootNamespace>InterfaceTest</RootNamespace>
+    <AssemblyName>InterfaceTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyCache.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="ISendable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

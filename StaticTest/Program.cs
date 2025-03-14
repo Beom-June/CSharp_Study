@@ -19,8 +19,8 @@
 //            //  한 번만 실행시 이러한 방법도 가능
 //            //new Program().InstanceRun();
 
-//            int[] _nums = {1,2, 3, 4, 5 };
-//            int _sum =  MyCalc.Sum(_nums);
+//            int[] _nums = { 1, 2, 3, 4, 5 };
+//            int _sum = MyCalc.Sum(_nums);
 //            double _avg = MyCalc.Avg(_nums);
 
 //            int _cnt = MyCalc.NextCount;

@@ -1,39 +1,39 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//namespace ModLog
-//{
-//    public class Logger
-//    {
+namespace ModLog
+{
+    public class Logger
+    {
 
-//        //  필드
-//        private string _logDirectory;
-//        private string _logFileName;
+        //  필드
+        private string _logDirectory;
+        private string _logFileName;
 
-//        //  생성자
-//        public Logger()
-//        {
-//            _logDirectory = Environment.CurrentDirectory; ;
-//            _logFileName = "log.txt";
-//        }
-//        //  프로퍼티
-//        public string LogDirectory
-//        {
-//            get { return _logDirectory; }
-//            //set { _logDirectory = value; }
-//        }
+        //  생성자
+        public Logger()
+        {
+            _logDirectory = Environment.CurrentDirectory; ;
+            _logFileName = "log.txt";
+        }
+        //  프로퍼티
+        public string LogDirectory
+        {
+            get { return _logDirectory; }
+            //set { _logDirectory = value; }
+        }
 
-//        //  메서드
-//        public void LogSuccess(string msg)
-//        {
+        //  메서드
+        public void LogSuccess(string msg)
+        {
 
-//        }
+        }
 
-//        public void LogError(string msg)
-//        {
-//        }
-//    }
-//}
+        public void LogError(string msg)
+        {
+        }
+    }
+}
