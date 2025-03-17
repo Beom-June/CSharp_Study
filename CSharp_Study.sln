@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynTest", "DynTest\DynTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitTest", "AwaitTest\AwaitTest.csproj", "{0C64037B-B9F2-4E84-ACB0-7EFEF4C5D80B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBasic", "AsyncBasic\AsyncBasic.csproj", "{62D6EC2B-1DCE-4021-A2EC-7A5158125C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBasicCancelToken", "AsyncBasicCancelToken\AsyncBasicCancelToken.csproj", "{3B532B17-7B42-4BB4-B46A-951C3D6B8FDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{0C64037B-B9F2-4E84-ACB0-7EFEF4C5D80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C64037B-B9F2-4E84-ACB0-7EFEF4C5D80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C64037B-B9F2-4E84-ACB0-7EFEF4C5D80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D6EC2B-1DCE-4021-A2EC-7A5158125C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D6EC2B-1DCE-4021-A2EC-7A5158125C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D6EC2B-1DCE-4021-A2EC-7A5158125C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D6EC2B-1DCE-4021-A2EC-7A5158125C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B532B17-7B42-4BB4-B46A-951C3D6B8FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B532B17-7B42-4BB4-B46A-951C3D6B8FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B532B17-7B42-4BB4-B46A-951C3D6B8FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B532B17-7B42-4BB4-B46A-951C3D6B8FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
